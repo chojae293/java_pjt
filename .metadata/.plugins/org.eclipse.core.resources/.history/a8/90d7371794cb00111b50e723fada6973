@@ -1,0 +1,83 @@
+
+public class Operator3 {
+	public static void main(String[] args) {
+		
+		/*
+		 * 비교 연산자 
+		 * 크고 작음을 나타내는 연산자 입니다.
+		 * 
+		 * 
+		 */
+		System.out.println(10 < 20);   //true
+		System.out.println(10 > 20);	//false
+		
+		System.out.println(10 <= 20); //true
+		System.out.println(10 >= 20); //false
+		
+		System.out.println(10 == 20); //false
+		System.out.println(10 != 20); //true
+		
+	//	System.out.println(10 === 20); //false
+	//	System.out.println(10 !== 20); //false
+		
+		float num5 = 0.1f;        // 0.10000000149 > double       false <참고>
+		double num6 = 0.1;		  // 0.10000000000 > double       true
+		 
+		System.out.println("num5: "+ num5);  //0.1
+		System.out.println("num6: "+ num6);  //0.1
+		System.out.println("num5 + num6: "+ (num5 + num6));  //0.2
+		
+		System.out.println("num5 == num6: "+ (num5 == num6)); //false         false인 이유 위에 참고
+		System.out.println("num5 != num6: "+ (num5 != num6)); //true
+		
+		System.out.println("num5 > num6: "+ (num5 > num6));	//true
+		System.out.println("num5 < num6: "+ (num5 < num6)); //false
+		
+		int num7 = 10;
+		float num8 = 10.0f;
+		
+		// int + float => float + float  // num7 : 10.0         num8 : 10.0
+		
+		System.out.println("num7 > num8: "+ (num7 > num8));    //false
+		System.out.println("num7 >= num8: "+ (num7 >= num8));  //true
+		System.out.println("num7 < num8: "+ (num7 < num8));		//false
+		System.out.println("num7 <= num8: "+ (num7 <= num8));	//true
+		System.out.println("num7 == num8: "+ (num7 == num8));	//true
+		System.out.println("num7 != num8: "+ (num7 != num8));	//false
+		
+		
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

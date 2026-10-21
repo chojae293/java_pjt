@@ -1,0 +1,46 @@
+
+public class Operator { 
+	public static void main(String[] args) {
+		
+		
+		/*
+		 * 연산자(Operator)
+		 * 산술 연산자, 대입(복합)연산자, 비교 연산자, 논리 연산자, 조건식 연산자 등등...
+		 */
+		
+		/*
+		 * 산술 연산자   +, -, *, /, %, ++, --
+		   할당 연산자   =, +=, -=, *=, /=, %=, &=, |=
+		   비교 연산자   ==, !=, >, <, >=, <=
+           논리 연산자   &&, ||, !
+		 */
+		
+		// 1. 덧셈 연산
+		// 1-1 숫사 덧셈
+		int num1 = 10;
+		int num2 = 20;
+		System.out.println("num1 +num2: "+ (num1 + num2));
+		
+		float num3 = 0.1f;
+		float num4 = 0.2f;
+		System.out.println("num3 + num4: "+ (num3 + num4));
+		
+		//1-2 문자열 덧셈
+		String str1 = "Hello";
+		String str2 = "world";
+		System.out.println("str1 +str2: "+ (str1 + str2));
+		
+		//1-3 숫자 + 문자열 = 문자열 + 문자열 = 문자열(연결 연산자)
+		System.out.println(10 + "Hello");
+		System.out.println(3.14 + "Hello");
+		
+		// 참고 문자 덧셈 
+		System.out.println('A' + 'B');     // 65 + 66 = 131 유니코드화
+
+		
+		
+		
+		
+}
+
+}

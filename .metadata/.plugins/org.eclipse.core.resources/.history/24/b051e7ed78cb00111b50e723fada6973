@@ -1,0 +1,17 @@
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * 지정자에 사용할 수 있는 옵션들
+		 */
+		
+		//1. [.precision] : 소수점 아래 자리수를 지정한다
+		float rate = 3.141592f;
+		System.out.println("rate: %f %n", rate);    //rate: 3.141592
+		System.out.println("rate: %.2f %n", rate);    //rate: 3.141592
+
+	}
+
+}

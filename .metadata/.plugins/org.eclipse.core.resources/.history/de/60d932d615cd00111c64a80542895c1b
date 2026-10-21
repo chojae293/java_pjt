@@ -1,0 +1,54 @@
+
+public class loopEX01 {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		/*
+		 * while문 : 조건에 의한 반복문
+		 * while(조건식) {
+		 * 실행문
+		 * }
+		 * 
+		 */
+		
+		/*
+		for (int i = 0; i < 5; i++) {
+			System.out.println("HELLO");
+		}
+		
+		int i = 0;
+		while (i < 5) {
+			System.out.println("HELLO");
+			i++;
+		}
+		*/
+		int i = 0;
+		boolean flag = true;
+		while (flag) {
+			System.out.println("i : "+ i);
+			i++;
+			
+			if (i > 100)
+				flag = false;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
