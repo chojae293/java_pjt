@@ -18,6 +18,8 @@ public class MainClass {
 		final int MENU_DELETE 	= 4;
 		final int END 			= 99;
 		
+		
+		
 		HashMap<String, String[]> members = new HashMap<String, String[]>();
 		
 		// DUMY DATA START
@@ -39,7 +41,7 @@ public class MainClass {
 			
 			int selectedMenuNumber = scanner.nextInt();
 			
-			String memberID;
+			String memberID;  
 			String memberPW;
 			String memberMail;
 			String memberPhone;
@@ -47,8 +49,15 @@ public class MainClass {
 			switch (selectedMenuNumber) {
 			case MENU_SIGN_UP:		//SIGN-UP(회원가입)
 				
+				
 				System.out.println("Input new member ID!!");
 				memberID = scanner.next();
+				
+				if (members.get(memberID) != null) {
+				    System.out.println("이미 존재하는 ID입니다.");
+				} else {
+				    System.out.println("사용 가능한 ID입니다.");
+				}
 				
 				System.out.println("Input new member PW!!");
 				memberPW = scanner.next();
@@ -131,7 +140,7 @@ public class MainClass {
 				
 				break;
 				
-			case MENU_DELETE:		//DELETE(탈뢰)
+			case MENU_DELETE:		//DELETE(탈퇴)
 				
 				System.out.println("Input member ID!!");
 				memberID = scanner.next();
