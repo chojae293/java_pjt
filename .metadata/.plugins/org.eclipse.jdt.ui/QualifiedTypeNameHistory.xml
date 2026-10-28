@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.office.classex02.Student"/>
     <fullyQualifiedTypeName name="com.office.classex01.Student"/>
     <fullyQualifiedTypeName name="com.office.classex03.Student"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.office.member.Member"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberService"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberDumy"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberDB"/>
 </qualifiedTypeNameHistroy>
