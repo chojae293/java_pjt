@@ -118,16 +118,7 @@ public class MemberService {
 	 * 정보수정
 	 */
 	public void doModify(Scanner scanner) {
-		
-		System.out.println("Input member ID");
-		memberID = scanner.next();
-		
-		System.out.println("Input member PW");
-		memberPW = scanner.next();
-		
-		
-		
-		
+			
 		
 		System.out.println("Input member ID");
 		String memberID = scanner.next();
@@ -135,19 +126,37 @@ public class MemberService {
 		System.out.println("Input member PW");
 		String memberPW = scanner.next();
 		
+	    Member serchMember = db.memberDB.get(memberID);
+
+	    if (serchMember == null || !serchMember.memberPW.equals(memberPW)) {
+	        System.out.println("ID 또는 PW가 일치하지 않습니다.");
+	        return;
+	    }
+	    
+	    
+	    System.out.println("Input new member PW");
+	    String newPW = scanner.next();
+		
 		System.out.println("Input member MAIL");
-		String memberMAIL = scanner.next();
+		String newMAIL = scanner.next();
 		
 		System.out.println("Input member PHONE");
-		String memberPHONE = scanner.next();
+		String newPHONE = scanner.next();
 		
-		Member serchMember = db.memberDB.get(memberID);
-		serchMember.memberPW = memberPW;
-		serchMember.memberMAIL = memberMAIL;
-		serchMember.memberPHONE = memberPHONE;
+	    serchMember.memberPW = newPW;
+	    serchMember.memberMAIL = newMAIL;
+	    serchMember.memberPHONE = newPHONE;
+
+	    serchMember.printInfo();
+	}
 		
-		serchMember = db.memberDB.get(memberID);
-		serchMember.printInfo();
+//		Member serchMember = db.memberDB.get(memberID);
+//		serchMember.memberPW = memberPW;
+//		serchMember.memberMAIL = memberMAIL;
+//		serchMember.memberPHONE = memberPHONE;
+//		
+//		serchMember = db.memberDB.get(memberID);
+//		serchMember.printInfo();
 //		System.out.println(serchMember.memberID);
 //		System.out.println(serchMember.memberPW);
 //		System.out.println(serchMember.memberMAIL);
@@ -158,7 +167,7 @@ public class MemberService {
 		 */
 		
 		
-	}
+//	}
 	
 	/*
 	 * 회원탈퇴
@@ -175,7 +184,24 @@ public class MemberService {
 		
 		if(searchedMember != null && searchedMember.memberPW.equals(memberPW)) {
 			db.memberDB.remove(memberID);
+		} else {
+			System.out.println("ID 또는 PW가 일치하지 않습니다.");
 		}
+	}
+		
+		/*
+		 * 전체 회원정보 출력
+		 */
+		public void doPrintAll() {
+
+			if (db.memberDB.isEmpty()) {
+				System.out.println("등록된 회원이 없습니다.");
+				return;
+			}
+
+			for (Member member : db.memberDB.values()) {
+				member.printInfo();
+			}
 		
 	}
 }

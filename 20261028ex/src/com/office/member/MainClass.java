@@ -10,19 +10,25 @@ public class MainClass {
 		
 		boolean systemFlag = true;
 		
-		final int MENU_SIGN_UP	= 1;
-		final int MENU_SIGN_IN 	= 2;
-		final int MENU_MODIFY 	= 3;
-		final int MENU_DELETE 	= 4;
-		final int END 			= 99;
+		// 개발환경이면 true, 실환경이면 false
+		final boolean IS_DEV = true;
+		
+		final int MENU_SIGN_UP		= 1;
+		final int MENU_SIGN_IN 		= 2;
+		final int MENU_MODIFY 		= 3;
+		final int MENU_DELETE 		= 4;
+		final int MENU_PRINT_ALL	= 5;
+		final int END 				= 99;
 		
 		MemberDB memberDB = new MemberDB();
-		
+
 		MemberService memberService = new MemberService(memberDB);
-		
-		MemberDumy memberDumy = new MemberDumy(memberDB);
-		
-		memberDumy.initMemberDumyData();
+
+		// 개발환경일 때만 더미 데이터 초기화
+		if (IS_DEV) {
+			MemberDumy memberDumy = new MemberDumy(memberDB);
+			memberDumy.initMemberDumyData();
+		}
 		
 		/*
 		 * 과제: 더미 초기화는 개발환경과 실환경으로 구분해야 한다.
@@ -30,7 +36,7 @@ public class MainClass {
 		
 		while (systemFlag) {
 			
-			System.out.println("1.SIGN-UP   2.SIGN-IN   3.MODIFY   4.DELETE   99.SYSTEM-OUT");
+			System.out.println("1.SIGN-UP   2.SIGN-IN   3.MODIFY   4.DELETE   5.PRINT-ALL   99.SYSTEM-OUT");
 			int selectedMenu = scanner.nextInt();
 			
 			switch (selectedMenu) {
@@ -51,9 +57,15 @@ public class MainClass {
 				
 				break;
 				
-			case MENU_DELETE: 	//SIGN-OUT
+			case MENU_DELETE: 	//DELETE
 				
 				memberService.doDelete(scanner);
+				
+				break;
+				
+			case MENU_PRINT_ALL: 	// PRINT-ALL
+				
+				memberService.doPrintAll();
 				
 				break;
 				
