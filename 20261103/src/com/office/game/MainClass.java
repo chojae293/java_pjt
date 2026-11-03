@@ -4,9 +4,14 @@ public class MainClass {
 
 	public static void main(String[] args) {
 
+		Game game = new Game(
+			    new Bear(),
+			    new Robot(),
+			    new Dog(),
+			    new AirPlane()
+			);
 		
-		
-		
+		game.move(200, 300);
 	}
 
 }

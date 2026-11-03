@@ -2,14 +2,10 @@ package com.office.game;
 
 public class Game {
 	
-	private Bear bear;
-	
-	private Robot robot;
-	
-	private Dog dog;
-	
-	private AirPlane airPlane;
-	
+	private Bear bear;	
+	private Robot robot;	
+	private Dog dog;	
+	private AirPlane airPlane;	
 	private ICharactor[] iCharactors;
 	
 	public Game(Bear bear, Robot robot, Dog dog, AirPlane airPlane) {
@@ -36,14 +32,12 @@ public class Game {
 //		airPlane.run(x, y);
 		
 		for (int i = 0; i < iCharactors.length; i++) {
-			
+			iCharactors[i].run(x, y);
 		}
 		
 	}
 
 	
-	public void execute() {
-		
-	}
+
 
 }
