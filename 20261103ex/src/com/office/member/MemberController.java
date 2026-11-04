@@ -11,26 +11,72 @@ public class MemberController implements MemberConfig{
 		boolean systemFlag = true;
 		MemberService memberService = new MemberService();
 		
+		if (IS_DEV) 
+			new MemberDumy().signUpForDumy(memberService);
+			
+		String memId;
+		String memPw;
+		String memMail;
+		String memPhone;
+		MemberDto memberDto;
+		
 		
 		while (systemFlag) {
-			System.out.println("1.SIGN-UP    2.SIGN-IN    3.MODIFY    4.DELTE    99.EXIT");
+			System.out.println("1.SIGN-UP    2.SIGN-IN    3.MODIFY    4.DELETE    99.EXIT");
 			int selectedMenuNum = scanner.nextInt();
 			
 			switch (selectedMenuNum) {
 			case SIGN_UP :
-				memberService.signUp(scanner);
+				
+				System.out.println("Input new memeber ID");
+				memId = scanner.next();
+				
+				System.out.println("Input new memeber PW");
+				memPw = scanner.next();
+				
+				System.out.println("Input new memeber MAIL");
+				memMail = scanner.next();
+				
+				System.out.println("Input new memeber PHONE");
+				memPhone = scanner.next();
+				
+				memberDto = new MemberDto(memId, memPw, memMail, memPhone);
+				
+				
+				memberService.signUp(memberDto);
 				break;
 				
 			case SIGN_IN :
-				memberService.signIn(scanner);
+				
+				System.out.println("Input memeber ID");
+				memId = scanner.next();
+				
+				System.out.println("Input memeber PW");
+				memPw = scanner.next();
+				
+				memberDto = new MemberDto(memId, memPw, null);
+				
+				memberService.signIn(memberDto);
+				
+				
 				break;
 				
 			case MODIFY :
-				memberService.modify(scanner);
+				memberService.modify();
 				break;
 				
 			case DELETE :
-				memberService.delete(scanner);
+				// ID && PW 인증 후 삭제
+				
+				System.out.println("Input memeber ID");
+				memId = scanner.next();
+				
+				System.out.println("Input memeber PW");
+				memPw = scanner.next();
+				
+				memberDto = new MemberDto(memId, memPw, null);
+				
+				memberService.delete(memberDto);
 				break;
 				
 			case EXIT :
