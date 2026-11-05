@@ -1,9 +1,6 @@
 package com.office.ex;
 
-public class ChildClass {
+public class ChildClass extends SuperClass{
 	
-	public class childClass extends SuperClass {
-		
-	}
 
 }

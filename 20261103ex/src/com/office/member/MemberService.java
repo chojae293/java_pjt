@@ -1,10 +1,9 @@
 package com.office.member;
 
-import java.util.Scanner;
-
 public class MemberService implements IMemverService{
 	
-	MemberDao memberDao = new MemberDao();
+	final private MemberDao memberDao = 
+			MemberContainer.getInstance().getMemberDao();
 	
 	@Override
 	public void signUp(MemberDto memberDto) {
@@ -47,8 +46,9 @@ public class MemberService implements IMemverService{
 	}
 
 	@Override
-	public void modify() {
-		// TODO Auto-generated method stub
+	public void modify(MemberDto memberDto) {
+
+		MemberDto updatedMemberDto = memberDao.updateMemberByMemId(memberDto);
 		
 	}
 
@@ -62,6 +62,18 @@ public class MemberService implements IMemverService{
 			System.out.println("입력된 정보가 없습니다.");
 		}
 		
+	}
+
+	public boolean doAuthenticationByMemIdAndMemPw(MemberDto memberDto) {
+
+		MemberDto dto = memberDao.searchMemberByMemIdAndMemPw(memberDto);
+		
+		
+		/*
+		 * MemberDto MemberDto null
+		 */
+		
+		return dto != null ? true : false;
 	}
 	
 	

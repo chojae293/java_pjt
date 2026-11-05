@@ -3,9 +3,7 @@
     <fullyQualifiedTypeName name="com.office.classex02.Student"/>
     <fullyQualifiedTypeName name="com.office.classex01.Student"/>
     <fullyQualifiedTypeName name="com.office.classex03.Student"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.office.member.Member"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberDumy"/>
     <fullyQualifiedTypeName name="com.office.member.MemberDB"/>
     <fullyQualifiedTypeName name="com.office.member.Config"/>
     <fullyQualifiedTypeName name="java.lang.management.MemoryUsage"/>
@@ -32,11 +30,25 @@
     <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="com.office.game.ICharactor"/>
     <fullyQualifiedTypeName name="com.office.member.MemberSuper"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberService"/>
     <fullyQualifiedTypeName name="com.office.member.IMemverServiceV1"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.office.game.Robot"/>
     <fullyQualifiedTypeName name="com.office.game.AirPlane"/>
     <fullyQualifiedTypeName name="com.office.game.Dog"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberDumy"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberDto"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberService"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberController"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberDao"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberContainer"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryDao"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryController"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryService"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryAssembler"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryDto"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

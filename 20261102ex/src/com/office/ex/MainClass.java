@@ -15,6 +15,8 @@ public class MainClass {
 		
 		System.out.println(childClass.name);
 		childClass.printInfo();
+		
+		String str = "Hello";
 
 	}
 
