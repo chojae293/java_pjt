@@ -8,7 +8,6 @@ public class MemberDao {
 	 * gildong : MemberDto
 	 */
 	
-
 	HashMap<String, MemberDto> db = new HashMap<String, MemberDto>();
 	
 	public boolean isMember(String memId) {
@@ -41,16 +40,19 @@ public class MemberDao {
 	public MemberDto deleteMemberByMemIdAndMemPw(MemberDto memberDto) {
 		
 		MemberDto dto = db.get(memberDto.getMemId());
-		System.out.println("dto: " + dto);
 
 		if(dto != null && dto.getMemPw().equals(memberDto.getMemPw())) {
 			MemberDto deleMemberDto = db.remove(memberDto.getMemId());
 			
-		}else {
-			return null;
-		}
+			if (deletedMemberDto != null) {
+				return deletedMemberDto;
+			}else {
+				return null;
+			}
 		
-		return null;
+		}else {
+		  return null;
+		}
 		
 	}
 	
