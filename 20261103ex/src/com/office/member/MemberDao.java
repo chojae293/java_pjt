@@ -42,7 +42,7 @@ public class MemberDao {
 		MemberDto dto = db.get(memberDto.getMemId());
 
 		if(dto != null && dto.getMemPw().equals(memberDto.getMemPw())) {
-			MemberDto deleMemberDto = db.remove(memberDto.getMemId());
+			MemberDto deletedMemberDto = db.remove(memberDto.getMemId());
 			
 			if (deletedMemberDto != null) {
 				return deletedMemberDto;

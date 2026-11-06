@@ -35,7 +35,6 @@
     <fullyQualifiedTypeName name="com.office.game.Robot"/>
     <fullyQualifiedTypeName name="com.office.game.AirPlane"/>
     <fullyQualifiedTypeName name="com.office.game.Dog"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.office.member.MemberDumy"/>
     <fullyQualifiedTypeName name="com.office.member.MemberDto"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
@@ -47,8 +46,13 @@
     <fullyQualifiedTypeName name="com.office.diary.DiaryController"/>
     <fullyQualifiedTypeName name="com.office.diary.DiaryService"/>
     <fullyQualifiedTypeName name="com.office.diary.DiaryAssembler"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.office.diary.DiaryDto"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.office.memberAndDiary.DiaryDto"/>
+    <fullyQualifiedTypeName name="com.office.memberAndDiary.MemberService"/>
+    <fullyQualifiedTypeName name="com.office.memberAndDiary.IDiaryConfig"/>
+    <fullyQualifiedTypeName name="com.office.memberAndDiary.MemberDto"/>
 </qualifiedTypeNameHistroy>
