@@ -19,7 +19,7 @@ public class Menu {
 	
 	public static void generateMenu() {
 		HashMap<String, Object> attributies = Session.getInstance().getAttributies();
-		Object object = attributies.get("sugnInedMemberId");
+		Object object = attributies.get("signInedMemberId");
 		
 		if(object == null) {
 			System.out.println("1.SIGN-UP    2.SIGN-IN    99.SYSTEM-OUT");
