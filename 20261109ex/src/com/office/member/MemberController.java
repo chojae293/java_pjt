@@ -59,7 +59,7 @@ public class MemberController {
 			
 			if(signInedMemberDto != null) {
 				System.out.println("SIGN-IN SUCCESS");
-				Session.getInstance().setAttribute(signInedMemberId, signInedMemberDto.getMemId());
+				Session.getInstance().setAttribute("signInedMemberId", signInedMemberDto.getMemId());
 			}else {
 				System.out.println("SIGN-IN FAIL");
 			}

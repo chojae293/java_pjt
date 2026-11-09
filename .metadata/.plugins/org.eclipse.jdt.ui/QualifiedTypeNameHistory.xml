@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.office.classex02.Student"/>
-    <fullyQualifiedTypeName name="com.office.classex01.Student"/>
-    <fullyQualifiedTypeName name="com.office.classex03.Student"/>
-    <fullyQualifiedTypeName name="com.office.member.Member"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberDB"/>
     <fullyQualifiedTypeName name="com.office.member.Config"/>
     <fullyQualifiedTypeName name="java.lang.management.MemoryUsage"/>
     <fullyQualifiedTypeName name="com.office.member.Menu"/>
@@ -36,23 +31,33 @@
     <fullyQualifiedTypeName name="com.office.game.AirPlane"/>
     <fullyQualifiedTypeName name="com.office.game.Dog"/>
     <fullyQualifiedTypeName name="com.office.member.MemberDumy"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberDto"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberService"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberController"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberDao"/>
     <fullyQualifiedTypeName name="com.office.member.MemberContainer"/>
-    <fullyQualifiedTypeName name="com.office.diary.DiaryDao"/>
-    <fullyQualifiedTypeName name="com.office.diary.DiaryController"/>
-    <fullyQualifiedTypeName name="com.office.diary.DiaryService"/>
     <fullyQualifiedTypeName name="com.office.diary.DiaryAssembler"/>
     <fullyQualifiedTypeName name="com.office.diary.DiaryDto"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.office.memberAndDiary.DiaryDto"/>
     <fullyQualifiedTypeName name="com.office.memberAndDiary.MemberService"/>
     <fullyQualifiedTypeName name="com.office.memberAndDiary.IDiaryConfig"/>
     <fullyQualifiedTypeName name="com.office.memberAndDiary.MemberDto"/>
+    <fullyQualifiedTypeName name="com.office.home.HomeController"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberController"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberDao"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryDao"/>
+    <fullyQualifiedTypeName name="com.office.db.DiaryDb"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryController"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryService"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.MainMethodFinder"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.sun.xml.internal.stream.events.AttributeImpl"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.awt.Container"/>
+    <fullyQualifiedTypeName name="com.office.menu.Menu"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberService"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberDto"/>
+    <fullyQualifiedTypeName name="com.office.session.Session"/>
+    <fullyQualifiedTypeName name="com.office.Container"/>
 </qualifiedTypeNameHistroy>

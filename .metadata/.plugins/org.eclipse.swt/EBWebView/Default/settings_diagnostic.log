@@ -2815,3 +2815,5 @@
 {"logTime": "1109/062050", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}
 {"logTime": "1109/062358", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
 {"logTime": "1109/062601", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
+{"logTime": "1109/082611", "level": "INFO", "message": "Preference changed: name=sessions.session_data_status, new_value=2, source=unknown"}
+{"logTime": "1109/082611", "level": "INFO", "message": "Preference changed: name=sessions.session_data_status, new_value=3, source=unknown"}
