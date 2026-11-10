@@ -1,18 +1,17 @@
 package com.office.member;
 
 public class MemberDto {
-	
+
 	private String memId;
 	private String memPw;
 	private String memMail;
 	private String memPhone;
 	
 	public MemberDto() {
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public MemberDto(String memId, String memPw, String memMail, String memPhone) {
-		super();
 		this.memId = memId;
 		this.memPw = memPw;
 		this.memMail = memMail;
@@ -51,6 +50,4 @@ public class MemberDto {
 		this.memPhone = memPhone;
 	}
 	
-	
-
 }

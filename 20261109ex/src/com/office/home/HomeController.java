@@ -8,9 +8,9 @@ import com.office.menu.Menu;
 import com.office.session.Session;
 
 public class HomeController {
-	
+
 	public void execute() {
-		
+	
 		Scanner scanner = new Scanner(System.in);
 		boolean systemFlag = true;
 		
@@ -35,12 +35,15 @@ public class HomeController {
 				
 			case Menu.SYSTEM_OUT:
 				systemFlag = false;
-				System.out.println("GOOD BYE");
+				System.out.println("Good bye~~");
 				break;
 
 			}
 			
 		}
+		
+		scanner.close();
+		
 	}
 
 }

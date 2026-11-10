@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.office.member.Config"/>
-    <fullyQualifiedTypeName name="java.lang.management.MemoryUsage"/>
-    <fullyQualifiedTypeName name="com.office.member.Menu"/>
     <fullyQualifiedTypeName name="com.office.member.Flag"/>
     <fullyQualifiedTypeName name="Calculator"/>
     <fullyQualifiedTypeName name="com.office.methodex01.AddOperator"/>
@@ -34,7 +31,6 @@
     <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMap_attribute.stack_map_frame"/>
     <fullyQualifiedTypeName name="com.office.member.MemberContainer"/>
     <fullyQualifiedTypeName name="com.office.diary.DiaryAssembler"/>
-    <fullyQualifiedTypeName name="com.office.diary.DiaryDto"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="com.office.memberAndDiary.DiaryDto"/>
     <fullyQualifiedTypeName name="com.office.memberAndDiary.MemberService"/>
@@ -44,7 +40,6 @@
     <fullyQualifiedTypeName name="com.office.member.MemberController"/>
     <fullyQualifiedTypeName name="com.office.member.MemberDao"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.office.diary.DiaryDao"/>
     <fullyQualifiedTypeName name="com.office.db.DiaryDb"/>
     <fullyQualifiedTypeName name="com.office.diary.DiaryController"/>
@@ -52,12 +47,17 @@
     <fullyQualifiedTypeName name="jdk.internal.misc.MainMethodFinder"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.sun.xml.internal.stream.events.AttributeImpl"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="com.office.Container"/>
     <fullyQualifiedTypeName name="java.awt.Container"/>
+    <fullyQualifiedTypeName name="com.office.dumy.Dumy"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputFilter.Config"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberDto"/>
+    <fullyQualifiedTypeName name="com.office.member.MemberService"/>
     <fullyQualifiedTypeName name="com.office.menu.Menu"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberService"/>
-    <fullyQualifiedTypeName name="com.office.member.MemberDto"/>
+    <fullyQualifiedTypeName name="com.office.diary.DiaryDto"/>
     <fullyQualifiedTypeName name="com.office.session.Session"/>
-    <fullyQualifiedTypeName name="com.office.Container"/>
+    <fullyQualifiedTypeName name="com.office.config.Config"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

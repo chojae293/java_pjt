@@ -3,34 +3,36 @@ package com.office.session;
 import java.util.HashMap;
 
 public class Session {
-	
+
 	private static Session session;
 	
-	final private HashMap<String, Object> attribute;
+	final private HashMap<String, Object> attributies;
 	
 	private Session() {
-		attribute = new HashMap<String, Object>();
+		attributies = new HashMap<String, Object>();
 	}
 	
 	public static Session getInstance() {
-		if(session == null)
+		if (session == null) 
 			session = new Session();
 		
 		return session;
 		
 	}
 
-
-	public HashMap<String, Object> getAttributies() {
-		return attribute;
+	public Object getAttribute(String name) {
+		return attributies.get(name);
+		
 	}
 	
-	public void setAttribute(String name, Object object) {             //여기 set은 값을 바꾸는게 아니다.
-		attribute.put(name, object);
+	public void setAttribute(String name, Object object) {
+		attributies.put(name, object);
+		
 	}
 	
 	public void removeAttribute(String name) {
-		attribute.remove(name);
+		attributies.remove(name);
+		
 	}
 
 }
