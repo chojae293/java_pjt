@@ -9,7 +9,6 @@ INDEX VERSION 1.134+C:\CJW\JAVA\pjt\.metadata\.plugins\org.eclipse.jdt.core
 47293190.index
 98044890.index
 68837869.index
-1436934789.index
 3119058957.index
 393061428.index
 1812680665.index
