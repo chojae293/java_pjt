@@ -2944,3 +2944,13 @@
 {"logTime": "1111/051320", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}
 {"logTime": "1111/065403", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
 {"logTime": "1111/065703", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
+{"logTime": "1111/081047", "level": "INFO", "message": "Preference changed: name=language_dwell_time_average, new_value=[object], source=unknown"}
+{"logTime": "1111/081047", "level": "INFO", "message": "Preference changed: name=language_usage_count, new_value=[object], source=unknown"}
+{"logTime": "1111/081047", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
+{"logTime": "1111/081057", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}
+{"logTime": "1111/081712", "level": "INFO", "message": "Preference changed: name=language_dwell_time_average, new_value=[object], source=unknown"}
+{"logTime": "1111/081712", "level": "INFO", "message": "Preference changed: name=language_usage_count, new_value=[object], source=unknown"}
+{"logTime": "1111/081712", "level": "INFO", "message": "Preference changed: name=language_model_counters, new_value=[object], source=unknown"}
+{"logTime": "1111/081722", "level": "INFO", "message": "PrefStore write completed: store=4, success=true"}
+{"logTime": "1111/083052", "level": "INFO", "message": "Preference changed: name=sessions.session_data_status, new_value=2, source=unknown"}
+{"logTime": "1111/083052", "level": "INFO", "message": "Preference changed: name=sessions.session_data_status, new_value=3, source=unknown"}
